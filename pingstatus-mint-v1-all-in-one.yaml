@@ -25,13 +25,13 @@ paths:
           content:
             application/json:
               schema:
-                $ref: "./components/ErrorResponse.yaml"
+                $ref: "#/components/schemas/ErrorResponse"
         "401":
           description: Unauthorized
           content:
             application/json:
               schema:
-                $ref: "./components/ErrorResponse.yaml"
+                $ref: "#/components/schemas/ErrorResponse"
       deprecated: false
   /ping:
     get:
@@ -49,13 +49,13 @@ paths:
           content:
             application/json:
               schema:
-                $ref: "./components/ErrorResponse.yaml"
+                $ref: "#/components/schemas/ErrorResponse"
         "401":
           description: Unauthorized
           content:
             application/json:
               schema:
-                $ref: "./components/ErrorResponse.yaml"
+                $ref: "#/components/schemas/ErrorResponse"
       deprecated: false
   /status:
     get:
@@ -73,13 +73,13 @@ paths:
           content:
             application/json:
               schema:
-                $ref: "./components/ErrorResponse.yaml"
+                $ref: "#/components/schemas/ErrorResponse"
         "401":
           description: Unauthorized
           content:
             application/json:
               schema:
-                $ref: "./components/ErrorResponse.yaml"
+                $ref: "#/components/schemas/ErrorResponse"
 security:
   - ApiKeyAuth: []
 components:
