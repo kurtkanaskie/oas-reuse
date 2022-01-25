@@ -11,8 +11,8 @@ servers:
 paths:
   /free:
     get:
-      operationId: getPing
-      description: Returns a message indicating the API proxy is operational
+      operationId: getFree
+      description: Returns a free message indicating the API proxy is operational
       responses:
         "200":
           description: OK
