@@ -1,0 +1,15 @@
+// ErrorResponse:
+type: object
+properties:
+  code:
+    example: "401.004"
+    description: Error code
+    type: string
+  message:
+    example: Invalid API Key
+    description: Error message
+    type: string
+  info:
+    example: https://developer.company.com/errors#401.004
+    description: Where to find more inforamation
+    type: string
